@@ -1,7 +1,7 @@
 from inference_engine import Inference, Rule
 import pymongo
-# import main
-# from main import rules
+import ex4
+from ex4 import application_collection
 
 application_client = pymongo.MongoClient("mongodb://localhost:27017/")
 application_db = application_client["ia"]
