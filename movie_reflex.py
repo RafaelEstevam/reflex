@@ -3,9 +3,9 @@ import pymongo
 import ex4
 from ex4 import application_collection
 
-application_client = pymongo.MongoClient("mongodb://localhost:27017/")
-application_db = application_client["ia"]
-application_collection = application_db["rule"]
+# application_client = pymongo.MongoClient("mongodb://localhost:27017/")
+# application_db = application_client["ia"]
+# application_collection = application_db["rule"]
 
 composite_rules = application_collection.find()
 inferences = []
